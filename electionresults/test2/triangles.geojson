@@ -1,0 +1,48 @@
+{
+	"type" : "Feature",
+	"geometry" : {
+		"type" : "MultiPolygon",
+		"coordinates" : [
+			[
+				[
+					[
+						-150,
+						61
+					],
+					[
+						-150.1,
+						61.1
+					],
+					[
+						-150.1,
+						61
+					]
+				],
+				[
+					[
+						-150.2,
+						61
+					],
+					[
+						-150.3,
+						61.1
+					],
+					[
+						-150.5,
+						61.1
+					]
+				]
+			]
+		]
+	},
+	"properties" : {
+		"name" : "Ballard",
+		"population" : 48000,
+		"style" : {
+			"fillColor" : "yellow",
+			"weight" : 2,
+			"color" : "#000000"
+		}
+	},
+	"id" : "ballard"
+}

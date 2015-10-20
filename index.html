@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <title>Code For Anchorage - Apps</title>
+  <style type="text/css">
+    body, html {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #F5F5F5;
+      color: #114;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0000EE;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #titleBar {
+      height: 80px;
+      background-color: #3475b4;
+      overflow: hidden;
+      border-bottom: 1px solid #3475b3;
+      -moz-box-shadow:    0px 0px 10px 3px #BBC;
+      -webkit-box-shadow: 0px 0px 10px 3px #BBC;
+      box-shadow:         0px 0px 10px 3px #BBC;
+    }
+    #titleBar #container {
+      margin-top: 14px;
+    }
+    #titleBar h1 {
+      margin: 0 auto .5em auto;
+      padding: .2em;
+      color: #EEE;
+      text-align: center;
+    }
+    #outer-content {
+      max-width: 910px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #content {
+      margin: 1em auto 1em auto;
+      float: left;
+    }
+    #shiny-apps li {
+      margin-bottom: 8px;
+    }
+  </style>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65234312-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+  <div id="titleBar">
+    <div id="container">
+      <h1>Welcome to Code For Anchorage's Shiny Server!</h1>
+    </div>
+  </div>
+  <div id="outer-content">
+    <div id="content">
+      <h3>Hosted Applications:</h3>
+      <ul id="shiny-apps">
+        <li><strong><a href="./kenaisockeye/">Dipnet_App!</a></strong></li>
+        <li><strong><a href="./akweather/">bigcityweather</a></strong></li>
+        <li><a href="./munipayroll/"><strong>munipayroll</strong></a></li>
+        <li><a href="./precinctvoting/"><strong>precinctvoting</strong></a></li>
+        <li><a href="./precinctcluster/"><strong>precinctcluster</strong></a></li>
+        <li><a href="./muniexplorer/"><strong>muniexplorer</strong></a></li>
+        <li><a href="./CannabisZoning/"><strong>CannabisZoning</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+
